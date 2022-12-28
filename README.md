@@ -1,1 +1,2 @@
 # GIS-Program-Letter-Generation
+This code takes fire station and parcel data from Longmont, Colorado. It clips out the desired fire station, followed by the homeowners within 3000 feet of that fire station. It then uses the Near tool to generate a distance for each homeowner from the fire station. Once all the data is clipped and gathered, the code generates a well-formulated message to homeowners and individual txt files that can be sent to homeowners of Longmont so they are aware of the event.
